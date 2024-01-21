@@ -28,12 +28,6 @@ python generate_sim_jobs.py
 
 All of the outputs will be found inside of the directory `PINN_output`. This directory and any other directory inside of it will be automatically created by the scripts and do not need to be manually created.
 
-Similarly, to train the final model, we need to run `generate_final_model_jobs.py` and this will run `Galileo_PINN_Cluster_finaltraining.py` for as many trials as the user inputs. Again, the outputs will be found inside `PINN_output`.
-
-```
-python generate_final_model_jobs.py
-```
-
 Finally, to make the plots, we need to run 
 
 ```
