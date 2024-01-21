@@ -1,6 +1,8 @@
 
 # Jupiter's Radiation Environment using a Physics-Informed Neural Network
 
+TODO: NEED TO CLEAN UP / ADD COMMENTS TO PLOTTING SCRIPT
+
 A project to improve the model of the radiation environment in Jupiter using a Physics-Informed Neural Network (PINN) in preparation for the Europa Clipper mission. There is limited amount of data from the Galileo mission that orbited Jupiter, so the main idea of this project is to add the physics diffusion equation (which is the equation for radiation belt dynamics that we know the data should follow at least to first order) as an extra term in the loss function to help guide the neural network without the need for more data. This project is adapted from the work done by [Camporeale, E., Wilkie, G. J., Drozdov, A. Y., & Bortnik, J.](https://doi.org/10.1029/2022JA030377).
 
 ## Running the scripts

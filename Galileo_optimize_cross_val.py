@@ -4,6 +4,8 @@
 - Modified to accept Jupiter data from EPD 
 - Optimization script to find optimal hyperparameters
 
+TODO: CLEAN UP
+
 Author: Maria Prado Rodriguez
 
 """
